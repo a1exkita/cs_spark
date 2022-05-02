@@ -1,6 +1,8 @@
 # Cofiguration
-The input file is "enwiki_small.xml".
+The input file is "enwiki_small.xml" which is located at HDFS.
 We used a standard cluster with 1 master & 2 workers with 5GB memory for driver and 5GB memory for executor.
-
+In case you run the .py file in cluster, you are suppsed to put the .jar file in the job configuration.
+By running this p1t3.ipynb file, you can generate a csv folder in HDFS.
 Note: the p1t3.ipynb file generates a CSV file with an automatically assigned name under the foler named as "q8".
 Our CSV file is manually renamed to p1t3.csv afterwards.
+

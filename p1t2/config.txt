@@ -1,6 +1,8 @@
 # Cofiguration
-The input file is "enwiki_small.xml".
+The input file is "enwiki_small.xml" which is located at HDFS.
+Also, we locally downloaded the .jar file in the instruction.
 We used a single node cluster with 1GB memory for driver and 5GB memory for executor for Part 1 Task2.
+By running this p1t2.ipynb file, you can generate a csv folder in HDFS. 
 
 Note: the p1t2.ipynb file generates a CSV file with an automatically assigned name under the foler named as "q2-small".
 Our CSV file is manually renamed to p1t2.csv afterwards.
