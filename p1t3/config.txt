@@ -1,0 +1,6 @@
+# Cofiguration
+The input file is "enwiki_small.xml".
+We used a standard cluster with 1 master & 2 workers with 5GB memory for driver and 5GB memory for executor.
+
+Note: the p1t3.ipynb file generates a CSV file with an automatically assigned name under the foler named as "q8".
+Our CSV file is manually renamed to p1t3.csv afterwards.
