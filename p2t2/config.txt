@@ -1,0 +1,3 @@
+# Cofiguration
+Run the PageRank program first which generates the csv file in google bucket. Next, we activate emitter and then receiver.
+We use a single node cluster.
